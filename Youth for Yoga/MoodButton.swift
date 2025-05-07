@@ -30,7 +30,7 @@ struct MoodSelectionView: View {
 
     var body: some View {
         VStack(spacing: 30) {
-            Text("How are you feeling today?")
+            Text("How are you feeling today?") // Maybe need to change this question, or change it to daily save
                 .font(.headline)
 
             HStack(spacing: 20) {
@@ -53,6 +53,6 @@ struct MoodSelectionView: View {
 
             Spacer()
         }
-        .padding()
+        .padding() // Does this padding need to be there? Hmmmm
     }
 }
